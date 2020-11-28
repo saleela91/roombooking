@@ -1,0 +1,52 @@
+
+[
+    {
+    "Id":1,
+    "Name":"Conference Hall 1",
+    "Seat": "24 Seats",
+    "Type": "A/C",
+    "Image":"room1"
+  
+  },
+  {
+    "Id":2,
+    "Name":"Conference Hall 2",
+    "Seat": "40 Seats",
+    "Type": "Non A/C",
+    "Image":"room2"
+  
+  },
+  {
+    "Id":3,
+    "Name":"Conference Hall 3",
+    "Seat": "50 Seats",
+    "Type": "A/C",
+    "Image":"room3"
+  
+  },
+  {
+    "Id":4,
+    "Name":"Conference Hall 4",
+    "Seat": "30 Seats",
+    "Type": "Non A/C",
+    "Image":"room4"
+  
+  },
+  {
+    "Id":5,
+    "Name":"Conference Hall 5",
+    "Seat": "25 Seats",
+    "Type": "A/C",
+    "Image":"room5"
+  
+  },
+  {
+    "Id":6,
+    "Name":"Conference Hall 6",
+    "Seat": "40 Seats",
+    "Type": "A/C",
+    "Image":"room6"
+  
+  }
+  
+  ]

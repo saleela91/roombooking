@@ -1,0 +1,89 @@
+<div class="card1">
+    <div class="card-header">
+       Choose your slot
+    </div>
+    <div class="card-body">
+        <form [formGroup]="bookingForm" (ngSubmit)="onSubmit">
+         <div class="detail"> {{roomName}} </div>
+         
+            <div class="dat">
+                <label for="date">Date</label>
+                
+                <input type="text"
+           placeholder="DD-MM-YYYY"
+           class="form-control" 
+           bsDatepicker [bsConfig]="{containerClass: 'theme-dark-blue', dateInputFormat: 'DD-MM-YYYY' }"
+         [formControlName]="'date'" >
+      
+               </div>
+               <div  >
+             
+    <div class="times">
+        <div class="lab">
+            <label for="morning">Morning</label>
+           </div>
+           
+            <div class="rad">
+                <input type="radio" class="radio" id="10.00 AM" name="time" value="10.00 AM"  [formControlName]="'time'" >
+                <label for="10.00 AM">10.00 AM</label>
+                <input type="radio" class="radio" id="11.00 AM" name="time" value="11.00 AM" [formControlName]="'time'">
+                <label for="11.00 AM">11.00 AM</label>
+                <input type="radio" class="radio" id="12.00 PM" name="time" value="12.00 PM" [formControlName]="'time'">
+                <label for="12.00 PM">12.00 PM</label>
+               </div>
+          
+           
+
+    </div>
+    <div class="times">
+        <div class="lab">
+            <label for="NOON">AfterNoon</label>
+           </div>
+           
+            <div class="rad">
+                <input type="radio" class="radio" id="01.00 pM" name="time" value="01.00 PM" [formControlName]="'time'">
+                <label for="01.00 PM">01.00 PM</label>
+                <input type="radio" class="radio" id="02.00 PM" name="time"  value="02.00 PM" [formControlName]="'time'">
+                <label for="02.00 PM">02.00 PM</label>
+                <input type="radio" class="radio" id="03.00 PM" name="time" value="03.00 PM" [formControlName]="'time'">
+                <label for="03.00 PM">03.00 PM</label>
+                <input type="radio" class="radio" id="04.00 PM" name="time"  value="04.00 PM" [formControlName]="'time'">
+                <label for="04.00 PM" style='margin-right:16px'>04.00 PM</label>
+               </div>
+           
+           
+    </div>
+    <div class="times">
+        <div class="lab">
+            <label for="eve">Evening</label>
+           </div>
+         
+            <div class="rad">
+                <input type="radio" class="radio" id="05.00 PM" name="time" value="05.00 PM" [formControlName]="'time'">
+                <label for="05.00 PM">05.00 PM</label>
+                <input type="radio" class="radio" id="06.00 PM" name="time" value="06.00 PM" [formControlName]="'time'">
+                <label for="06.00 PM">06.00 PM</label>
+                <input type="radio" class="radio" id="07.00 PM" name="time" value="07.00 PM" [formControlName]="'time'">
+                <label for="07.00 PM">07.00 PM</label>
+                <input type="radio" class="radio"  id="08.00 PM" name="time" value="08.00 PM" [formControlName]="'time'">
+                <label for="08.00 PM" style='margin-right:16px'>08.00 PM</label>
+               </div>
+          
+           
+    </div>
+
+</div>
+
+
+           <div class="oksty">
+            <button (click)="add()" type="submit" class="btn" style='margin-right:16px' >  Submit</button>
+           </div>
+
+           Form values:{{bookingForm.value | json}}
+         
+    </form>
+          
+ 
+    </div>
+</div>
+    

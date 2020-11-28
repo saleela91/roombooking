@@ -1,0 +1,30 @@
+
+
+
+
+
+    <div class="card" >
+        <div class="img.wrapper">
+            <img src="assets/images/{{room.Image}}.jpg" >
+            <ul class="list-inline text-center member-icons ">
+                <li class="list-inline-item">
+                    <button (click)="sub" class="btn btn-primary "routerLink="/add-room/{{room.Name}}" ><i class="far fa-edit"></i></button>
+                </li>
+                <li class="list-inline-item">
+                    <button (click)="canc" class="btn btn-primary "routerLink="/cancel/{{room.Name}}" ><i class="fa fa-ban" aria-hidden="true"></i></button>
+                </li>
+            </ul>
+               
+            
+        </div>
+        
+
+<div class="card-body p-3">
+
+    <h5>{{room.Name}}</h5>
+    <h6>{{room.Seat}}</h6>
+    <h6>{{room.Type}}</h6>
+</div>
+
+    </div>
+

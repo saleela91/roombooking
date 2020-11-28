@@ -1,0 +1,37 @@
+<h3>List of Bookings</h3>
+
+<div class="can">
+    <div class="can-header">
+        Select slot for cancellation
+    </div>
+
+    <div class="can-body">
+        <form>
+            <div class="detail"> {{roomNam}} </div>
+
+
+
+            <div class="form-style col-10">
+               <table id="table">
+                   <tr>
+                       
+                        <th *ngFor = "let column of headers">
+                            {{column}}
+                          
+                       </th>
+                   </tr>
+                   <tr *ngFor = "let row of rows">
+                    <td *ngFor = "let column of headers"  >
+                      {{row[column]}}
+                    </td>
+                  </tr>
+               </table>
+              
+            </div>
+           
+            <div class="oksty">
+                <button (click)="cancel()" class="ok" style='margin-right:16px' (click)="onCancel" >  OK</button>
+               </div>
+        </form>
+    </div>
+</div>

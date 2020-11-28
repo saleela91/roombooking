@@ -1,0 +1,63 @@
+.card1{
+    margin-left: 10%;
+    width:max-content;
+}
+
+
+.lab{
+    margin-top: 2;
+    margin-left: 2%;
+}
+.dat{
+    margin-bottom: 3%;
+}
+.times{
+    padding-bottom: 3%;
+}
+.btn{
+    border-radius: 8px;
+    background-color: #2213f7; 
+    border:navajowhite;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;  
+}
+.oksty{
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+.form-control{
+    width: 2;
+}
+.rad{
+    border-radius: 8px;
+    
+    border:rgb(19, 18, 17);
+    color: rgb(14, 13, 13);
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+}
+.radio{
+    margin-left:30px;
+    margin-right: 5;
+    
+}
+.time{
+    border:ridge;
+    border-width: 20;
+}
+.detail{
+    font-weight: bold;
+    color: blue;
+    padding-top: 5;
+    padding-bottom: 5;
+   
+}

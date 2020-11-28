@@ -1,0 +1,43 @@
+
+h3 {margin-left:5%;
+padding-bottom: 2%;}
+
+.can{
+    margin-left: 10%;
+   
+}
+.can-header{
+    padding-bottom: 2%;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 10;
+  border-color: slateblue;
+
+}
+table{
+    width: 50%;
+}
+.oksty{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.ok{
+    border-radius: 12px;
+    background-color: #2213f7; 
+    border:navajowhite;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;  
+  
+}
+.detail{
+    font-weight: bold;
+    color: blue;
+    padding-top: 5;
+    margin-bottom: 5;
+}
